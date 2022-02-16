@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/recycler_row_kullaniciemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KULLANICI EMAOL"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:textColor="#A31313"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/recycler_row_resim"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+    <TextView
+        android:id="@+id/recycler_row_kullaniciyorumu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KULLANICI YORUMU"
+        android:textSize="20dp"
+        android:textColor="#A31313"
+        android:layout_margin="5dp">
+
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FotografPaylasmaActivty">
+
+    <ImageView
+        android:id="@+id/gorselSec"
+        android:layout_width="279dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="58dp"
+        android:onClick="gorselTiklaVeSec"
+        app:layout_constraintBottom_toTopOf="@+id/yorumGirilenSatir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+    <EditText
+        android:id="@+id/yorumGirilenSatir"
+        android:layout_width="261dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="200dp"
+        android:ems="10"
+        android:hint="YORUMUNUZU YAZINIZ"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gorselSec" />
+    <Button
+        android:id="@+id/paylasButonu"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
+        android:onClick="paylas"
+        android:text="PAYLAŞ"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yorumGirilenSatir" />
+</androidx.constraintlayout.widget.ConstraintLayout>
